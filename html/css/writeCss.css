@@ -1,0 +1,7 @@
+.autosize{
+  margin: 10px 0;
+  width:100%;
+  height: auto;
+  overflow:visible;
+}
+  textarea.autosize { min-height: 50px; }

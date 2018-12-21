@@ -1,0 +1,123 @@
+.state{
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 900px;
+}
+.page_intro{
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 5%;
+  margin-left: 22%;
+  margin-right: 22%;
+  height: 150px;
+  border: 1px solid #d3d3d3;
+}
+.page_name{
+    display: inline-block;
+      padding: 20px;
+      margin-bottom: 10px;
+      font-weight: bold;
+      font-size: 15px;
+      width: 40%;
+      min-width: 100px;
+      height:100%;
+}
+.dir{
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid black;
+}
+.list-row{
+  list-style: none;
+    margin: 0px auto;
+    padding: 0px;
+    width: 100%;
+}
+.col-item-left{
+  display: inline-block;
+    padding: 20px;
+    margin-left:20px;
+    margin-bottom: 10px;
+    border-top: 1px solid #d3d3d3;
+    font-size: 15px;
+    width: 30%;
+    min-width: 100px;
+    height:150px;
+}
+.col-item-left:hover{
+  box-shadow: 1px 1px 20px #d3d3d3;
+}
+.col-item-right{
+  display: inline-block;
+    padding: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 10px;
+    border-top: 1px solid #d3d3d3;
+    font-size: 15px;
+    width: 60%;
+}
+.col-item-right:hover{
+  box-shadow: 1px 1px 20px #d3d3d3;
+}
+.col-item{
+  display: inline-block;
+    padding: 20px;
+    margin-bottom: 10px;
+    width: 30%;
+    height: 100%;
+    float: right;
+}
+.col-item:hover{
+  box-shadow: 1px 1px 20px #d3d3d3;
+}
+.col-item div{
+  margin:auto;
+}
+.card-title{
+  color:black;
+  font-size: 24px;
+  font-weight: bold;
+}
+.card-text{
+  margin-top: 20px;
+  color: #7890A0;
+  font-size: 14px;
+  line-height: 1.5em;
+}
+
+.css-arrow {
+    float:right;
+    display: inline-block;
+    position: relative;
+    margin: 0 0 0 8px;
+    padding: 0;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-left-color: #bdbebd;
+}
+.css-arrow:before, .css-arrow:after {
+    display: block;
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 0;
+    height: 0;
+}
+.css-arrow:before {
+    left: -30px;
+    margin-top: -10px;
+    border: 10px solid transparent;
+    border-right-color: #bdbebd;
+}
+.css-arrow:after {
+    left: -20px;
+    margin-top: -14px;
+    border: 14px solid transparent;
+    border-left-color: #eee;
+}

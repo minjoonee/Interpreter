@@ -1,0 +1,23 @@
+@import url(https://fonts.googleapis.com/css?family=Prompt:900);
+
+
+#wrap {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  -webkit-box-align: top;
+  -webkit-align-items: center;
+      -ms-flex-align: top;
+          align-items: top;
+  -webkit-box-pack: top;
+  -webkit-justify-content: top;
+      -ms-flex-pack: top;
+          justify-content: top;
+  height: 30px;
+  margin-left: 40px;
+}
+
+#app {
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  font-size: 1vw;
+}
