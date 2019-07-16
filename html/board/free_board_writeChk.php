@@ -14,7 +14,7 @@ else{
   $db_title = $_POST['title'];                  // 제목
   $db_content = addslashes($_POST['content']);  // 내용
 
-  $conn=mysqli_connect('127.0.0.1', 'inter', '771029', 'interpreter', '3306');
+  $conn=mysqli_connect('localhost', 'db_id', 'db_pw', 'db_name', '3306');
     if(!$conn){
         echo"connect fail....";
     }

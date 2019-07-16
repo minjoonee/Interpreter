@@ -6,7 +6,7 @@
       location.href='index.php';
     </script>";
     }
-$conn=mysqli_connect('localhost', 'inter', '771029', 'interpreter', '3306');
+$conn=mysqli_connect('localhost', 'db_id', 'db_pw', 'db_name', '3306');
 $db=mysqli_select_db($conn , "interpreter");
 $user_id = $_SESSION['id'];
 
