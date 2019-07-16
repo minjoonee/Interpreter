@@ -1,7 +1,7 @@
 #!/usr/bin/php
 <?php
 
-	$conn=mysqli_connect('127.0.0.1', 'inter', '771029', 'interpreter', '3306');
+	$conn=mysqli_connect('localhost', 'db_id', 'db_pw', 'db_name', '3306');
 	$board=$_SERVER['argv'];
 
 	$db=mysqli_select_db($conn, "interpreter");
