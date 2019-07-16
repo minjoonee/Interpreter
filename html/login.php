@@ -2,7 +2,7 @@
 session_start();
 $id = $_POST['id'];
 $pw = $_POST['pw'];
-$conn=mysqli_connect('localhost', 'inter', '771029', 'interpreter', '3306');
+$conn=mysqli_connect('localhost', 'db_id', 'db_pw', 'db_name', '3306');
 $db=mysqli_select_db($conn , "interpreter");
 $query = "select *from login where id = '$id'";
 $result = mysqli_query($conn, $query);
