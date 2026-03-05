@@ -48,7 +48,7 @@ Interpreter/
 │   ├── css/ & js/           # 글로벌 레이아웃, 에디터 리사이징(resize.js) 기능
 │   ├── phpadmin/            # DB 통합 관리를 위한 내장 phpMyAdmin
 │   └── signupChk.php        # 회원가입 및 DB 유효성 검증 로직
-
+```
 ## 설치 및 실행 방법
 
 1. 리포지토리를 웹 서버 환경(예: Apache, Nginx의 htdocs 또는 /var/www/html)으로 클론합니다.
@@ -57,4 +57,5 @@ Interpreter/
 4. PHP 소스 코드 내 데이터베이스 연결 부분(mysqli_connect 함수 등)의 호스트, 계정명, 비밀번호, 데이터베이스 이름을 서버 환경에 맞게 수정합니다.
 5. 컴파일 기능 정상 작동을 위해 서버에 GCC 등 타겟 언어의 컴파일러가 설치되어 있는지 확인하고, PHP의 `system` 또는 `shell_exec` 함수 실행 권한이 허용되어 있는지 점검합니다.
 6. 웹 브라우저를 통해 호스팅 주소로 접속하여 회원가입 후 기능을 이용합니다.
+
 
